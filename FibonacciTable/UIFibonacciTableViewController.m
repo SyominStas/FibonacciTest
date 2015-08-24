@@ -11,6 +11,7 @@
 
 @interface UIFibonacciTableViewController ()
 
+//Для IBOutlet лучше использовать weak, как это делаем Apple по умолчанию
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) FTFibonacciDataSource *delegate;
 
